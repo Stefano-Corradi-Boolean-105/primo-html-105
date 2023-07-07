@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>primo HTML</title>
+</head>
+<body>
+
+  <!-- questo &egrave; un commento -->
+  <!-- il titolo H1 deve essere unico nella pagina  -->
+  <h1>Titolo grande</h1>
+  
+  <p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusamus <em>minus</em> esse? Sequi provident suscipit molestiae rerum porro ab ea assumenda neque  <button>sono un bottone</button> tempore similique ullam repellendus, <strong>vero quod saepe sint</strong>?
+  </p>
+
+  <!-- il div &egrave; un contenitore  -->
+  <div>
+    <!-- il contenuto di un div deve essere sempre contenuto all'interno del proprio tag  -->
+    <h2>Titolo secondario</h2>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit quisquam inventore nostrum doloribus voluptates? Nihil saepe assumenda quo explicabo id ipsam odio, illo cumque libero ut maxime hic commodi quae!
+    </p>
+  </div>
+
+  <div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa voluptate soluta ad velit, autem officiis vero veniam voluptas, quos blanditiis laboriosam veritatis repellendus expedita officia placeat assumenda sit! Voluptatum, voluptatibus?</p>
+  </div>
+  
+  <!-- lista ordinata  -->
+  <ol>
+    <li>item</li>
+    <li>item</li>
+    <li>item</li>
+    <li>item</li>
+    <li>item</li>
+  </ol>
+  
+  <!-- lista non ordinata  -->
+  <ul>
+    <li>item</li>
+    <li>item</li>
+    <li>item</li>
+    <li>item</li>
+  </ul>
+
+  <button>sono un bottone</button>
+
+  <!-- linea separatrice  -->
+  <hr>
+
+  <!-- corsivo semantico  -->
+  <em>corsivo</em> <br>
+  <!-- corsivo non semantico  -->
+  <i>corsivo</i> <br>
+  
+  
+  <!-- grassetto semantico  -->
+  <strong>grassetto</strong> <br>
+  <!-- grassetto non semantico  -->
+  <b>grassetto</b>
+
+
+  <!-- esempio di nesting  -->
+
+  <!-- box principale  -->
+  <div>
+    <h3>box principale</h3>
+    <div>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi quam itaque repudiandae dignissimos eveniet ipsam similique nihil, fugiat cupiditate cumque consequatur, maiores molestiae maxime at aliquam vitae porro sint! Ratione.
+      </p>
+      
+      <div>
+        <h4>altro titolino</h4>
+        <ul>
+          <li>item</li>
+          <li>item</li>
+          <li>item</li>
+          <li>item</li>
+        </ul>
+      </div>
+      
+      <div>
+        <h4>altro titolo</h4>
+        <p>Lorem ipsum dolor sit amet <a href="https://www.google.com/" target="_blank">vai a google</a> adipisicing elit. Provident, ex minima similique rerum perspiciatis ipsum tempora commodi ducimus adipisci totam odio consequuntur rem cumque explicabo laborum unde quas, corrupti aliquam, necessitatibus aut assumenda eos illo facere? Accusamus, autem a repellendus culpa nemo exercitationem distinctio aliquam repudiandae, aut, ea sit in. Deleniti fuga molestiae recusandae mollitia magni, sed cupiditate tempore quia est consequatur voluptates nisi ex, dolorum, placeat sunt animi iste officia dolore pariatur. Sed, provident? Possimus architecto mollitia aliquid ipsam dolor eius odit. Nulla vero aliquid, excepturi non reprehenderit nesciunt sed quam. Id ullam sequi cum aliquam eos dolor deleniti!</p>
+      </div>
+      
+    </div>
+  </div>
+  <!-- /box principale  -->
+
+
+  <!-- tabella -->
+  <table>
+
+    <thead>
+      <tr>
+        <th>colonna 1</th>
+        <th>colonna 2</th>
+        <th>colonna 3</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>cella  1</td>
+        <td>cella  2</td>
+        <td>cella  3</td>
+      </tr>
+      <tr>
+        <td>seconda riga cella  1</td>
+        <td>seconda riga cella  2</td>
+        <td>seconda riga cella  3</td>
+      </tr>
+      <tr>
+        <td>terza riga cella  1</td>
+        <td>terza riga cella  2</td>
+        <td>terza riga cella  3</td>
+      </tr>
+    </tbody>
+    
+    <tfoot>
+      <tr>
+        <td>chiusura riga cella  1</td>
+        <td>chiusura riga cella  2</td>
+        <td>chiusura riga cella  3</td>
+      </tr>
+    </tfoot>
+
+  </table>
+
+
+  <hr>
+  <!-- caratteri speciali  -->
+  <p>
+    &agrave; <br>
+    &aacute; <br>
+    &Agrave; <br>
+    &Aacute; <br>
+    &egrave; <br>
+    &eacute; <br>
+    &igrave; <br>
+    &iacute; <br>
+    &ograve; <br>
+    &oacute; <br>
+    &ugrave; <br>
+    &uacute; <br>
+    &euro;
+  </p>
+  
+  <p>
+    Il tag per il titolo proncipale &egrave; il tag <strong>H1</strong> e si scrive così: <br>
+    <strong>&lt;h1&gt;Titolo principale&lt;/h1&gt;</strong>
+  </p>
+
+  <hr>
+
+  <div>
+    <!-- percorso relativo sullo stesso livello  -->
+    <img width="500" src="assets/img/bosco.jpg" alt="bosco" title="bosco">
+    <!-- altra modalità percorso relativo  -->
+    <img width="500" src="./assets/img/uccellino.jpg" alt="uccellino" title="uccellino">
+    <!-- percorso assoluto (DA EVITARE!!!!)  -->
+    <img width="500" src="/assets/img/orsi.jpg" alt="orsi" title="orsi">
+  </div>
+
+  <hr>
+
+  <form action="#">
+    <label for="">Nome</label>
+    <input type="text" placeholder="Nome"> <br>
+    <label for="">Email</label>
+    <input type="email" placeholder="Email"><br>
+    <label for="">Messaggio</label> <br>
+    <textarea name="" id="" cols="30" rows="10"></textarea><br>
+    <button type="submit">invia</button>
+  </form>
+
+  <hr>
+
+  <p>
+    Lorem ipsum dolor &egrave; sit amet, consectetur adipisicing elit. Voluptate aut laboriosam, labore amet, illo quidem, suscipit nesciunt velit quaerat a aliquam accusamus sit voluptas? Doloremque, porro. Recusandae ex doloribus tempora eos voluptas harum unde labore fugit distinctio. Quos illo voluptates quia omnis similique, commodi aliquid distinctio ex. Adipisci illo aspernatur, voluptatum alias ipsa consequatur laboriosam itaque distinctio, animi nemo quo repellat natus hic? Perferendis consectetur eaque voluptatem maiores cumque, explicabo&egrave; fugit temporibus, magni reiciendis quia in nam excepturi adipisci nulla eos dignissimos&egrave; iure quo rem nihil unde error non, facilis impedit? Quam optio possimus expedita molestiae quia neque assumenda consequatur consequuntur vel eveniet cupiditate sapiente sit, dolorum laborum sed saepe! Voluptatum dolorem necessitatibus molestiae, assumenda praesentium eveniet quibusdam commodi quasi harum. Cum distinctio amet animi ab illo unde vero fugiat enim culpa. Debitis molestiae esse minus, deserunt nulla voluptatem tempore eveniet dolorum provident illo praesentium eius pariatur voluptates et hic nesciunt velit adipisci ipsum nobis aut sunt rem omnis? Iste neque quam dolor tempore. Optio unde tempora recusandae a nobis? Excepturi delectus consequuntur asperiores quo harum&egrave; accusamus, iusto modi magni porro id optio sunt dolores deleniti quam inventore architecto nobis vel ipsa ut laborum dolor quod. Nisi sunt aperiam libero!
+  </p>
+  
+  
+  
+
+</body>
+</html>
